@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Col } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { setCompleted } from "../redux/todoSlice";

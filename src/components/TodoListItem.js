@@ -27,7 +27,7 @@ const TodoListItem = ({ id, task, completed, colorCode, index }) => {
             className={
               colorCode === "green"
                 ? "tagColor3"
-                : colorCode == "purple"
+                : colorCode === "purple"
                 ? "tagColor4"
                 : ""
             }

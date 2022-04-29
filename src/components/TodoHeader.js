@@ -23,7 +23,7 @@ const Header = () => {
     months[current.getMonth() + 1]
   } ${current.getFullYear()}`;
   return (
-    <Row className="mt-5 justify-content-center">
+    <Row className="mt-sm-0 mt-md-5 justify-content-center">
       <Col md={6} className="headerStyle">
         <h6 style={{ textAlign: "center", color: "#fff", fontSize: "20px" }}>
           Today, {date}
